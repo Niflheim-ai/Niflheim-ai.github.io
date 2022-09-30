@@ -1,22 +1,22 @@
 body{
-	margin: auto;
+    margin: auto;
+    max-width: auto;
+    max-height: auto;
     padding: auto;
-    max-width: 800px;
-    max-height: 1300px;
     font-family: 'Arial' , 'sans-serif';
     display: flex;
     align-items: center;
     place-content: center;
     justify-content: center;
-    height: 100vh;
-	text-align: justify;
-	background: #000;
+    height: auto;
+    text-align: justify;
+    background: #000;
 }
 p{
-	font-size: 10px;
-	line-height: 10px;
-	background: url(https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/c0422089c9717a3f782b4942b5f3210e~c5_720x720.jpeg?x-expires=1664449200&x-signature=WN9av74AGcylZ7wmxENnfrno4ss%3D) no-repeat center /cover;
-	background-attachment: center;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: rgba(255,255,255,.2);
+    font-size: vw;
+    line-height: vw;
+    background: url(https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/c0422089c9717a3f782b4942b5f3210e~c5_720x720.jpeg?x-expires=1664449200&x-signature=WN9av74AGcylZ7wmxENnfrno4ss%3D) no-repeat center /cover;
+    background-attachment: auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,.2);
 }
