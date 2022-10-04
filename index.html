@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1," />
     <title>Niflheim-ai</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity= "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
 
 <body>
 
+  <!--
   <div class="svgwave">
-  <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+  <svg width="100%" height="30%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
     <style>
     .path-0{
       animation:pathAnim-0 4s;
@@ -64,12 +66,32 @@
   </style>
   <style class="darkreader darkreader--sync" media="screen"></style><defs><linearGradient id="gradient" x1="60%" y1="1%" x2="40%" y2="99%"><stop offset="5%" stop-color="#aa6c39" data-darkreader-inline-stopcolor="" style="--darkreader-inline-stopcolor:#88562e;"></stop><stop offset="95%" stop-color="#fcb900" data-darkreader-inline-stopcolor="" style="--darkreader-inline-stopcolor:#ca9400;"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,266 0,266 C 55.9155999506721,276.93723023800715 111.8311999013442,287.8744604760143 172,287 C 232.1688000986558,286.1255395239857 296.59080034529535,273.43938833395 343,256 C 389.40919965470465,238.56061166605005 417.80559871747437,216.36798618818594 459,224 C 500.19440128252563,231.63201381181406 554.186804784807,269.0886669133062 613,282 C 671.813195215193,294.9113330866938 735.4471821432975,283.2773461585892 792,270 C 848.5528178567025,256.7226538414108 898.0244666420027,241.8019484523369 952,245 C 1005.9755333579973,248.1980515476631 1064.4549512886915,269.51486003206315 1125,284 C 1185.5450487113085,298.48513996793685 1248.155728203231,306.1386114194105 1301,302 C 1353.844271796769,297.8613885805895 1396.9221358983846,281.93069429029475 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:none; --darkreader-inline-fill:#cc5400;" transform="rotate(-180 720 200)"></path></svg> 
   </div>
+  -->
 
-  <div class="bgimage"></div>
+  <div class="bg-image"></div>
 
-  <div class="h2">
-    <strong>Niflheim-ai</strong>
+  <div class="bg-text">
+    <h2 style="font-size: 3vw;">Niflheim-ai</h2>
+    <p style="font-size: 3vh;">Welcome to whatever this is, please kill me</p>
   </div>  
+
+  <button type="button" class="sched-button" id="sched-button" style="font-size: 1vw;">Class Schedule</button>
+
+  <img id="myImg" src="/niflheim-ai.github.io/images/sched.png" alt="Schedule">
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01" src="/niflheim-ai.github.io/images/sched.png">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
 
 </body>
 
