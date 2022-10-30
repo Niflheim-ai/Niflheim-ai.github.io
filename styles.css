@@ -9,7 +9,7 @@ body {
 /* Name */
 h1.name {
 
-    margin-left: -51%;
+    margin-left: -41%;
     margin-top: 20%;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -24,7 +24,7 @@ h2.name-sub {
 
     text-align: center;
     color: rgba(255, 255, 255, 100);
-    margin-left: -52%;
+    margin-left: -42%;
     margin-top: -4%;
     font-size: 5vh;
 
@@ -33,7 +33,7 @@ h2.name-sub {
 #box {
 
     margin-top: -21%;
-    margin-left: 2%;
+    margin-left: 7%;
     height: 5px;
     width: 88vh;
     position: relative;
@@ -43,11 +43,11 @@ h2.name-sub {
 /* GIF Beside Name */
 .gif-container {
 
-    background: url(images/NamePageGif.gif);
+    background: url(images/NamePageGif1.gif);
     background-size: cover;
 
     margin-top: -32%;
-    margin-left: 45%;
+    margin-left: 53%;
     height: 100vh;
     width: 100vh;
 
@@ -56,7 +56,7 @@ h2.name-sub {
 #aboutMe {
 
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 145px;
     font-size: 20px;
     color: #d1d1d181;
     font-family: inherit;
@@ -106,7 +106,7 @@ h2.name-sub {
 #contactMe {
 
     margin-top: 20px;
-    margin-left: 500px;
+    margin-left: 550px;
     font-size: 20px;
     color: #d1d1d181;
     font-family: inherit;
