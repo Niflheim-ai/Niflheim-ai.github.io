@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
   <title>My Portfolio</title>
 
 </head>
-<body>
+<body onload="myFunction()" style="margin: 0;">
+
+<div style="display:none;" id="page-content" class="animate-bottom">
 
   <h1 class="name">Hi, I am Fred Andrei</h1>
   <h2 class="name-sub">A First Year BSIS Student</h2>
@@ -18,5 +22,20 @@
   <button id="aboutMe">About Me</button>
   <button id="contactMe">Contact Me</button>
 
+</div>
+
+  <div id="loader">
+
+    <span>L</span>
+    <span>O</span>
+    <span>A</span>
+    <span>D</span>
+    <span>I</span>
+    <span>N</span>
+    <span>G</span>
+
+  </div>
+
 </body>
+
 </html>

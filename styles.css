@@ -152,3 +152,35 @@ h2.name-sub {
     transition-property: width, left;
 
 }
+
+.loader {
+
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 2;
+    size: 150px;
+
+}
+
+.loader span {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    animation: blur 3s linear infinite;
+    line-height: 20px;
+    transition: all 0.5s;
+    letter-spacing: 0.2em;
+    color: rgba(255, 255, 255, 0.897);
+}
+   
+@keyframes blur {
+    0%, 90% {
+     filter: blur(0);
+}
+   
+    50% {
+     filter: blur(10px);
+    }
+}
